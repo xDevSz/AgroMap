@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f3c3c; 
+    color: #fff; 
+    min-height: 100vh; /* Garante que o corpo ocupe a altura total da viewport */
+    display: flex;
+    flex-direction: column; /* Permite que o footer fique no final */
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f8f8f; 
+}
+
+.logo {
+    height: 150px; 
+}
+
+.button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex; /* Flexbox para colocar imagem e texto lado a lado */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    padding: 50px 20px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.text-content {
+    max-width: 70%; /* Limita a largura do texto */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+h1 {
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+p {
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+
+.create-account {
+    margin-top: 30px; /* Espaço acima do botão de criar conta */
+}
+
+.main-image {
+    max-width: 25%; /* Largura máxima da imagem */
+    height: auto; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2f8f8f; 
+    margin-top: auto; /* Faz o footer ir para o final da página */
+}
